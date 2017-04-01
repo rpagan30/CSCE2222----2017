@@ -23,9 +23,9 @@ public:
     ~Rational();
     //Getters and Setters
     int getNum() const;
-    int getDem() const;
+    int getDen() const;
     void setNum(int a);
-    void setDem(int b);
+    void setDen(int b);
     
     //Math
     void Add(Rational a1);
@@ -33,12 +33,25 @@ public:
     void Multiply(Rational m1);
     void Divide(Rational d1);
     void GCD(Rational g1);
+    double CalculateFloat();
 
     //Display
-    void DisplayFract(Rational f1) const;
-    void DisplayFloat(Rational f2) const;
+    void DisplayFract() const;
+    void DisplayFloat();
     //Copy Constructor
     Rational(const Rational &aRational);
+    
+    
+    //Overloaded Operators
+    Rational operator + (const Rational &tempRational);// addition operator
+    Rational operator - (const Rational &tempRational);// subtraction operator
+    Rational &operator=(const Rational &);//assign operator
+    bool operator >(Rational &tempRational);// is greater than operator
+    bool operator <(Rational &tempRational);//is less than operator
+    bool operator ==(const Rational &);//is equal to operator
+    
+    friend ostream &operator<<(ostream &, const Rational &tempRational);//cout operator
+    friend istream &operator>>(std::istream &, Rational &);//cin operator
 };
 
 

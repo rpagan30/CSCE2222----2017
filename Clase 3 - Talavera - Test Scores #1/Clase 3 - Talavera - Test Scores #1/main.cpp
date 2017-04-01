@@ -64,10 +64,35 @@ double sort(double *array, int size) {
     
     return *array;
 }
-
-double getTotal(double total, double *tests, int no_of_tests) {
+/**
+double *setnewptr(int no_of_tests, double *array) {
     
-    for( int i = 0; i < no_of_tests - 1; i++)// Drop lowest score
+    double *arr = nullptr;
+    
+    int new_no_of_tests = no_of_tests - 1;
+    
+    arr = new double[new_no_of_tests];
+    
+    cout << "Dropping lowest test score "<< *(array) << "." << endl;
+    
+    for(int count = 0; count < new_no_of_tests; count++)
+    {
+        
+        *(arr + count) = *(array + count + 1);
+    }
+    
+    cout << "Lowest test score dropped." << endl;
+    
+    return arr;
+}
+**/
+double getTotal( double *tests, int no_of_tests) {
+    
+    double total;
+    
+    cout << *(tests + 0) << " will be dropped for the test average calculation." << endl;
+    
+    for( int i = 1; i < no_of_tests; i++)// Drop lowest score
     {
         total += *(tests + i);
     }
@@ -78,7 +103,7 @@ double getTotal(double total, double *tests, int no_of_tests) {
 double getAverage(int no_of_tests, double total) {
     double average;
     
-    average = total / no_of_tests - 1;// Drop lowest score
+    average = total / (no_of_tests - 1);// Drop lowest score
     
     return average;
 }
@@ -104,11 +129,14 @@ int main() {
     
     tests = setptr(no_of_tests);
     *tests = sort(tests, no_of_tests);
-    total = getTotal(total, tests, no_of_tests);
+    //double *dropped_test = nullptr;
+    //*dropped_test = *setnewptr(no_of_tests, tests);
+    total = getTotal(tests, no_of_tests);
     average = getAverage(no_of_tests, total);
     display(average, tests, no_of_tests);
     
     delete [] tests;
+    //delete [] dropped_test;
     tests = nullptr;
 
     return 0;

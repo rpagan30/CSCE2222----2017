@@ -11,6 +11,20 @@
 
 using namespace std;
 
+
+void EnterEmp (int num_of_employees, string *Name, string *Department, string *Position) {
+   
+    for(int i = 0; i < num_of_employees; i++) {
+        
+        cout << "Enter employee work information: " << endl;
+        cout << "Name: " << endl;
+        cin >> *(Name + i);
+        cout << "Department: " << endl;
+        cin >> *(Department + i);
+        cout << "Position: " << endl;
+    }
+}
+
 int main() {
     /**
      
@@ -39,7 +53,12 @@ int main() {
     Department = new string[num_of_emp];
     Position = new string[num_of_emp];
     
+    cout << "How many employees do you wish to enter into the system? " << endl;
+    cin >> num_of_emp;
     
+    EnterEmp (num_of_emp, Name, Department, Position);
+    
+    /*
     E1.setName("Susan Meyers");
     E1.setIDNumber(39119);
     E1.setDepartment("Accounting");
@@ -58,6 +77,7 @@ int main() {
     E1.DisplayEmployee();
     E2.DisplayEmployee();
     E3.DisplayEmployee();
+    */
     
     delete [] Name;
     delete [] Department;

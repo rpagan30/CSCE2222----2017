@@ -13,8 +13,7 @@
 #include <string> // Needed for strlen and strcpy
 
 // ContactInfo class declaration.
-class ContactInfo
-{
+class ContactInfo {
 private:
     
     char *name; // The name
