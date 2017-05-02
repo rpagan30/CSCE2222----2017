@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3A51A91E945B8F004C7CA1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A51A81E945B8F004C7CA1 /* main.cpp */; };
+		FC3A51B11E945C1F004C7CA1 /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A51AF1E945C1F004C7CA1 /* Course.cpp */; };
+		FC3A51B41E945D60004C7CA1 /* Textbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A51B21E945D60004C7CA1 /* Textbook.cpp */; };
+		FC3A51B71E945FB6004C7CA1 /* Instructor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A51B51E945FB6004C7CA1 /* Instructor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC3A51A31E945B8F004C7CA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC3A51A51E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Clase 9 - Aggregation - Course, Textbook, Instructor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3A51A81E945B8F004C7CA1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC3A51AF1E945C1F004C7CA1 /* Course.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
+		FC3A51B01E945C1F004C7CA1 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		FC3A51B21E945D60004C7CA1 /* Textbook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Textbook.cpp; sourceTree = "<group>"; };
+		FC3A51B31E945D60004C7CA1 /* Textbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textbook.h; sourceTree = "<group>"; };
+		FC3A51B51E945FB6004C7CA1 /* Instructor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Instructor.cpp; sourceTree = "<group>"; };
+		FC3A51B61E945FB6004C7CA1 /* Instructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instructor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3A51A21E945B8F004C7CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3A519C1E945B8F004C7CA1 = {
+			isa = PBXGroup;
+			children = (
+				FC3A51A71E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */,
+				FC3A51A61E945B8F004C7CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3A51A61E945B8F004C7CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A51A51E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3A51A71E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A51A81E945B8F004C7CA1 /* main.cpp */,
+				FC3A51B61E945FB6004C7CA1 /* Instructor.h */,
+				FC3A51B51E945FB6004C7CA1 /* Instructor.cpp */,
+				FC3A51B31E945D60004C7CA1 /* Textbook.h */,
+				FC3A51B21E945D60004C7CA1 /* Textbook.cpp */,
+				FC3A51B01E945C1F004C7CA1 /* Course.h */,
+				FC3A51AF1E945C1F004C7CA1 /* Course.cpp */,
+			);
+			path = "Clase 9 - Aggregation - Course, Textbook, Instructor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3A51A41E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3A51AC1E945B8F004C7CA1 /* Build configuration list for PBXNativeTarget "Clase 9 - Aggregation - Course, Textbook, Instructor" */;
+			buildPhases = (
+				FC3A51A11E945B8F004C7CA1 /* Sources */,
+				FC3A51A21E945B8F004C7CA1 /* Frameworks */,
+				FC3A51A31E945B8F004C7CA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clase 9 - Aggregation - Course, Textbook, Instructor";
+			productName = "Clase 9 - Aggregation - Course, Textbook, Instructor";
+			productReference = FC3A51A51E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3A519D1E945B8F004C7CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rafael Pagan";
+				TargetAttributes = {
+					FC3A51A41E945B8F004C7CA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC3A51A01E945B8F004C7CA1 /* Build configuration list for PBXProject "Clase 9 - Aggregation - Course, Textbook, Instructor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC3A519C1E945B8F004C7CA1;
+			productRefGroup = FC3A51A61E945B8F004C7CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3A51A41E945B8F004C7CA1 /* Clase 9 - Aggregation - Course, Textbook, Instructor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3A51A11E945B8F004C7CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A51B71E945FB6004C7CA1 /* Instructor.cpp in Sources */,
+				FC3A51B41E945D60004C7CA1 /* Textbook.cpp in Sources */,
+				FC3A51B11E945C1F004C7CA1 /* Course.cpp in Sources */,
+				FC3A51A91E945B8F004C7CA1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC3A51AA1E945B8F004C7CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC3A51AB1E945B8F004C7CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC3A51AD1E945B8F004C7CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC3A51AE1E945B8F004C7CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3A51A01E945B8F004C7CA1 /* Build configuration list for PBXProject "Clase 9 - Aggregation - Course, Textbook, Instructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3A51AA1E945B8F004C7CA1 /* Debug */,
+				FC3A51AB1E945B8F004C7CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3A51AC1E945B8F004C7CA1 /* Build configuration list for PBXNativeTarget "Clase 9 - Aggregation - Course, Textbook, Instructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3A51AD1E945B8F004C7CA1 /* Debug */,
+				FC3A51AE1E945B8F004C7CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC3A519D1E945B8F004C7CA1 /* Project object */;
+}

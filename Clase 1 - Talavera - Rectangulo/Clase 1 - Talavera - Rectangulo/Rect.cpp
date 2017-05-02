@@ -11,6 +11,9 @@ using namespace std;
 
 /////Overloading operators////
 
+  //void Rect::getCount() {
+     //cout << objectCount << endl;
+//}
 
 Rect & Rect::operator=(const Rect &tempRectangle) {
     this->base = tempRectangle.getBase();

@@ -11,21 +11,14 @@
 using namespace std;
 
 int main() {
+    // Define a ContactInfo object with the following data:
+   // Name: Kristen Lee Phone Number: 555-2021
+     ContactInfo entry("Kristen Lee", "555-2021");
     
-    ContactInfo C1;
-    string Name = "";
-    string Phone ="";
-    
-    
-    cout << "Please enter your name and phone number" << endl;
-    cout << "Name: ";
-    cin >> C1.setName(Name);
-    cout << "Phone Number: ";
-    cin >> C1.setPhone(Phone);
-    cout << endl;
-    
-    cout << C1.Display()<<endl;
-    
+    // Display the object's data.
+    cout << "Name: " << entry.getName() << endl;
+    cout << "Phone Number: " << entry.getPhone() << endl;
+    return 0;
     
     return 0;
 }

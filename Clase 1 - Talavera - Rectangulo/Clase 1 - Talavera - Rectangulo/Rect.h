@@ -13,6 +13,9 @@ using namespace std;
 class Rect {
     
 public:
+    //static int objectCount;
+    
+    //static void getCount();
     
     Rect();
     ~Rect();

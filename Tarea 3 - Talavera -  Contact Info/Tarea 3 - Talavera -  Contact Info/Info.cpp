@@ -16,6 +16,7 @@ ContactInfo::ContactInfo(char *n, char *p){ // Allocate just enough memory for t
     strcpy(name, n);
     strcpy(phone, p);
 }
+
 //Rect::Rect(float base, float altura, float area): base(base), altura(altura), area(area)
 //{}
 

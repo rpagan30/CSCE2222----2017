@@ -54,8 +54,9 @@ public:
     bool operator == (const FeetInches &);
     
     // Friends
-    friend ostream &operator << (ostream &, const FeetInches &);
-    friend istream &operator >> (istream &, FeetInches &);
+    friend ostream &operator << (ostream &, const FeetInches &temp);
+    friend istream &operator >> (std::istream &, FeetInches &);
+
 };
 
 #endif

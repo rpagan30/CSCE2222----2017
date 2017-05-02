@@ -21,16 +21,40 @@ double Rational::CalculateFloat() {
     return q1 / q2;
 }
 
-Rational operator + (const Rational &tempRational) {
+Rational Rational::operator + (const Rational &tempRational) {
     
     int cd = this->getDen() * tempRational.getDen();
     int Num1 = this->getNum() * tempRational.getDen();
     int Num2 = tempRational.getNum() * this->getDen();
+    
+    return Rational (Num1 + Num2, cd);
 }
 
-Rational operator - (const Rational &tempRational) {
+Rational Rational::operator - (const Rational &tempRational) {
     
+    int cd = this->getDen() * tempRational.getDen();
+    int Num1 = this->getNum() * tempRational.getDen();
+    int Num2 = tempRational.getNum() * this->getDen();
+    
+    return Rational (Num1 - Num2, cd);
 }
+
+Rational Rational::operator * (const Rational &tempRational) {
+    
+    int cdr = this->getDen() * tempRational.getDen();
+    int Num5 = this->getNum() * tempRational.getNum();
+    
+    return Rational (Num5, cdr);
+}
+
+Rational Rational::operator / (const Rational &tempRational) {
+    
+    int cdd = this->getDen() * tempRational.getNum();
+    int Num6 = this-> getNum() * tempRational.getNum();
+    
+    return Rational (Num6, cdd);
+}
+
 
 Rational & Rational::operator=(const Rational &tempRational) {
     this->numerator = tempRational.getNum();
@@ -105,20 +129,20 @@ void Rational::setDen(int b) {
 /////////////////////////////////////////////////////////////////////////////////////////////
 void Rational::GCD(Rational g1) {
     
-    int temp = 1, a= g1.getNum() , b = g1.getDen();
+    int temp = 1, a = g1.getNum() , b = g1.getDen();
     
     if(a < 0) {
-        a*= 1;
+        a *= 1;
     }
     else if(b < 0) {
-        b*= -1;
+        b *= -1;
     }
     
     while(b > 0)
     {
-        temp = b;
-        b = a % temp;
-        a = temp;
+        temp = b;//r = x % y;
+        b = a % temp;//x=y;
+        a = temp;//y=r;
     }
     
     cout << "The fraction (" << getNum() << " / " << getDen() << ") can be simplified to (" << g1.getNum() / temp << " / " << g1.getDen() / temp << ") using the GCD " << temp <<  "." << endl;
@@ -168,7 +192,7 @@ void Rational::DisplayFloat() {
     cout <<"DISPLAY DECIMAL OF FRACTION: " << this->getNum() << " / " << this->getDen() <<" = " << this->CalculateFloat() << endl;
 }
 /////////////////////////////////////////////////////////////////////////////////////////////
-//Copy constructor///////////////////////////////////////////////////////////////////////////
+//Copy Constructor///////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 Rational::Rational( const Rational &aRational) {
         

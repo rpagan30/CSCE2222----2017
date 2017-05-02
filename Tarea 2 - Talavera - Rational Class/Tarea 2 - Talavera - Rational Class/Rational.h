@@ -18,9 +18,11 @@ private:
     int denominator;
     
 public:
+    
     //Constructor & Destructor
     Rational( int numerator = 0, int denominator = 1);
     ~Rational();
+    
     //Getters and Setters
     int getNum() const;
     int getDen() const;
@@ -41,10 +43,12 @@ public:
     //Copy Constructor
     Rational(const Rational &aRational);
     
-    
     //Overloaded Operators
     Rational operator + (const Rational &tempRational);// addition operator
     Rational operator - (const Rational &tempRational);// subtraction operator
+    Rational operator * (const Rational &tempRational);// multiplication operator
+    Rational operator / (const Rational &tempRational);// division operator
+
     Rational &operator=(const Rational &);//assign operator
     bool operator >(Rational &tempRational);// is greater than operator
     bool operator <(Rational &tempRational);//is less than operator
