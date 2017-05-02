@@ -26,8 +26,9 @@ Rational Rational::operator + (const Rational &tempRational) {
     int cd = this->getDen() * tempRational.getDen();
     int Num1 = this->getNum() * tempRational.getDen();
     int Num2 = tempRational.getNum() * this->getDen();
-    
-    return Rational (Num1 + Num2, cd);
+    Rational R1(Num1 + Num2, cd);
+    R1.GCD(R1);
+    return R1;
 }
 
 Rational Rational::operator - (const Rational &tempRational) {
@@ -35,8 +36,9 @@ Rational Rational::operator - (const Rational &tempRational) {
     int cd = this->getDen() * tempRational.getDen();
     int Num1 = this->getNum() * tempRational.getDen();
     int Num2 = tempRational.getNum() * this->getDen();
-    
-    return Rational (Num1 - Num2, cd);
+    Rational R1(Num1 - Num2, cd);
+    R1.GCD(R1);
+    return R1;
 }
 
 Rational Rational::operator * (const Rational &tempRational) {
@@ -44,7 +46,9 @@ Rational Rational::operator * (const Rational &tempRational) {
     int cdr = this->getDen() * tempRational.getDen();
     int Num5 = this->getNum() * tempRational.getNum();
     
-    return Rational (Num5, cdr);
+    Rational R1(Num5, cdr);
+    R1.GCD(R1);
+    return R1;
 }
 
 Rational Rational::operator / (const Rational &tempRational) {
@@ -52,7 +56,9 @@ Rational Rational::operator / (const Rational &tempRational) {
     int cdd = this->getDen() * tempRational.getNum();
     int Num6 = this-> getNum() * tempRational.getNum();
     
-    return Rational (Num6, cdd);
+    Rational R1(Num6, cdd);
+    R1.GCD(R1);
+    return R1;
 }
 
 
@@ -87,8 +93,7 @@ bool Rational::operator==(const Rational &tempRational) {
 }
 
 ostream &operator<<(ostream &output, const Rational &tempRational) {
-    output << "Numerator: " << tempRational.getNum() << endl;
-    output << "Denominator: " << tempRational.getDen() << endl;
+    output << "(" << tempRational.getNum() << "/" << tempRational.getDen() << ") ";
     return output;
 }///end operator
 
@@ -127,7 +132,7 @@ void Rational::setDen(int b) {
 /////////////////////////////////////////////////////////////////////////////////////////////
 //Math///////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
-void Rational::GCD(Rational g1) {
+Rational Rational::GCD(Rational g1) {
     
     int temp = 1, a = g1.getNum() , b = g1.getDen();
     
@@ -138,14 +143,18 @@ void Rational::GCD(Rational g1) {
         b *= -1;
     }
     
-    while(b > 0)
+    temp = a % b;
+    
+    while(temp < 0 || temp > 0)
     {
-        temp = b;//r = x % y;
-        b = a % temp;//x=y;
-        a = temp;//y=r;
+        a = b;
+        
+        b = temp;
+        
+        temp = (a%b);
     }
     
-    cout << "The fraction (" << getNum() << " / " << getDen() << ") can be simplified to (" << g1.getNum() / temp << " / " << g1.getDen() / temp << ") using the GCD " << temp <<  "." << endl;
+    return Rational (g1.getNum()/b, g1.getDen()/b);
 }
 
 void Rational::Add(Rational a1) {

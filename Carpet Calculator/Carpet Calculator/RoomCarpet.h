@@ -6,22 +6,28 @@
 //  Copyright © 2017 Rafael Pagan. All rights reserved.
 // Next, you should create a RoomCarpet class that has a RoomDimension object as an attribute. It should also have an attribute for the cost of the carpet per square foot. The RoomCarpet class should have a member function that returns the total cost of the carpet.
 
-#ifndef RoomCarpet_h_
-#define RoomCarpet_h_
+#ifndef ROOMCARPET_H
+#define ROOMCARPET_H
 
 #include "RoomDimension.h"
 
 class RoomCarpet {
     
 private:
-    RoomDimension room_area;
+    RoomDimension room;
     float cost;
 public:
-    RoomCarpet(RoomDimension room_area, float cost = 1);
+    //RoomCarpet();
+    RoomCarpet(RoomDimension room, float cost = 1);
     ~RoomCarpet();
-    RoomDimension getRoomArea() const;
+    RoomDimension getRoom() const;
     float getCost() const;
-    void setRoomDimension(RoomDimension R);
+    void setCost();
+    void setRoom(RoomDimension R);
+    
+    // Friends
+    friend ostream &operator << (ostream &, const RoomCarpet &temp);
+    friend istream &operator >> (std::istream &, RoomCarpet &);
 };
 
 #endif /* RoomCarpet_h */

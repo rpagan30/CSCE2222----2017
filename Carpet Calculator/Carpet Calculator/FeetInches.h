@@ -42,10 +42,12 @@ public:
         return inches;
     }
     
+    float FeetInchesToFloat ();
+    
     // Overloaded operator functions
     FeetInches operator + (const FeetInches &);
     FeetInches operator - (const FeetInches &);
-    FeetInches operator * (FeetInches &);
+    FeetInches operator * (const FeetInches &);
 
     bool operator > (const FeetInches &);
     bool operator < (const FeetInches &);

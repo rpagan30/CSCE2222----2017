@@ -16,11 +16,12 @@ class RoomDimension {
 private:
     FeetInches width;
     FeetInches length;
-    FeetInches area = width * length;
+    FeetInches area;
     
 public:
     
     RoomDimension(FeetInches width = 1, FeetInches length = 1, FeetInches area = 1);
+    RoomDimension();
     ~RoomDimension();
     FeetInches getWidth() const;
     FeetInches getLength() const;

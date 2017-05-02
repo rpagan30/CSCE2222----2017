@@ -24,8 +24,17 @@ void FeetInches::simplify() {
     }
 }
 
+float FeetInches::FeetInchesToFloat () {
+    
+    float feet_float = (float)this->getFeet();
+    float float_inches = (float)this->getInches()/12;
+    float float_feet = feet_float + float_inches;    
+    return float_feet;
+}
+
+
 //**********************************************
-// Overloaded binary + and - operators. *
+// Overloaded binary + and - operators.        *
 //**********************************************
 
 
@@ -45,24 +54,29 @@ FeetInches FeetInches::operator - (const FeetInches &right) {
     return temp;
 }
 
-FeetInches FeetInches::operator * ( FeetInches &tempFeetInches) {
+FeetInches FeetInches::operator * ( const FeetInches &temp) {
     int total_inches = (feet * 12) + inches;
-    int temp_total_inches = (tempFeetInches.feet * 12) + tempFeetInches.inches;
+    int temp_total_inches = (temp.feet * 12) + temp.inches;
     int mult = total_inches * temp_total_inches;
-    tempFeetInches.setFeet(0);
-    tempFeetInches.setInches(mult);
-    tempFeetInches.simplify();
-    return tempFeetInches;
+    FeetInches temp1;
+    temp1.inches = mult;
+    temp1.feet = 0;
+    temp1.simplify();
+    return temp1;
 }
 
 //**********************************************
-// Overloaded >, < and == operators. *
+// Overloaded >, < and == operators.           *
 //**********************************************
 
 bool FeetInches::operator>(const FeetInches &tempFeetInches) {
     bool flag = false;
     if( this-> feet > tempFeetInches.feet) {
         flag = true;
+    } else if (feet == tempFeetInches.feet) {
+        if(inches > tempFeetInches.inches) {
+            flag = true;
+        }
     }
     return flag;
 }
@@ -71,6 +85,10 @@ bool FeetInches::operator<(const FeetInches &tempFeetInches) {
     bool flag = false;
     if( this-> feet < tempFeetInches.feet) {
         flag = true;
+    } else if (feet == tempFeetInches.feet) {
+        if(inches < tempFeetInches.inches) {
+            flag = true;
+        }
     }
     return flag;
 }

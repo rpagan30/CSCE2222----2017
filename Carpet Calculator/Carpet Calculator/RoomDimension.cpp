@@ -12,6 +12,13 @@
 
 RoomDimension::RoomDimension(FeetInches width, FeetInches length, FeetInches area): width(width), length(length), area(area) {}
 
+RoomDimension::RoomDimension() {
+    
+    width = 1;
+    length = 1;
+    area = 1;
+}
+
 RoomDimension::~RoomDimension() {}
 
 FeetInches RoomDimension::getWidth() const {
@@ -96,14 +103,13 @@ bool RoomDimension::operator == ( RoomDimension &temp) {
 ostream &operator << (ostream &output, const RoomDimension &temp) {
     output << "Width: " << temp.getWidth() << endl;
     output << "Length: " << temp.getLength() << endl;
-    output << "Area: " << temp.getArea() << endl;
     return output;
 }
 
 istream &operator >> (istream &input, RoomDimension &temp) {
-    cout << "Enter the width: " << endl;
+    cout << "Width: " << endl;
     input >> temp.width;
-    cout << "Enter the length: " << endl;
+    cout << "Length: " << endl;
     input >> temp.length;
     temp.setArea();
     return input;
