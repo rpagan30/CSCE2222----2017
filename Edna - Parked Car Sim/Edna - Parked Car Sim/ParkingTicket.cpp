@@ -1,5 +1,6 @@
 #include"ParkingTicket.h"
 #include"PoliceOfficer.h"
+#include <cmath>
 
 ParkingTicket::ParkingTicket()
 {
@@ -27,27 +28,28 @@ void ParkingTicket::reportCarInfo()
 }
 void ParkingTicket::reportfine()
 {
-    int illegaltime = PC.getparkedminutes() - PM.getparkingmeter();
-    if (illegaltime> 0 && illegaltime <= 60) {
-        fine = 25;
-    }
-    else {
-        if (illegaltime > 60)
-        {
-            int temp = illegaltime;
+    
+    int difference = abs(PC.getparkedminutes() - PM.getparkingmeter());
+    int hour = 60; //60 mins = 1 hour
+    
+    if (PC.getparkedminutes() > PM.getparkingmeter()) {
+        
+        double extra_hours = (double) difference / (double) hour;
+        
+        if(extra_hours <= 1) {
             fine = 25;
-            while (temp > 0 || temp > 60)
-            {
-                fine += 10;
-                temp -= 60;
-            }
+        } else if(extra_hours > 1 ) {
+            int h = (int) round(extra_hours);
+            
+            fine = 25 + (h-1) * 10;
         }
     }
+    
     cout << "Fine: $" << getfine() << endl;
 }
 void ParkingTicket::reportOfficer()
 {
-    //PO.displayofficer();
+    PO.displayofficer();
 }
 int ParkingTicket::getfine() const
 {
