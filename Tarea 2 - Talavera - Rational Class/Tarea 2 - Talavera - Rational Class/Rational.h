@@ -1,10 +1,4 @@
-//
-//  Rational.hpp
-//  Tarea 2 - Talavera - Rational Class
-//
-//  Created by Rafael Pagan on 3/14/17.
-//  Copyright © 2017 Rafael Pagan. All rights reserved.
-//
+//  Rational.h
 
 #ifndef RATIONAL_H_
 #define RATIONAL_H_

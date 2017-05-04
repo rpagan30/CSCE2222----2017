@@ -33,7 +33,7 @@ void RoomCarpet::setRoom(RoomDimension R) {
     //Stream Operators
     ostream &operator << (ostream &output, const RoomCarpet &temp) {
         output << "Room dimensions: \n" << temp.getRoom() << endl;
-        output << "Carpet Cost: \n" << temp.getCost() << endl;
+        output << "Carpet Cost: \n$" << temp.getCost() << endl;
         return output;
     }
     

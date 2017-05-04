@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC81CF471EB92D9100C82C98 /* PoliceOfficer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC81CF451EB92D9100C82C98 /* PoliceOfficer.cpp */; };
+		FC8976AC1EB92CA500284040 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8976AB1EB92CA500284040 /* main.cpp */; };
+		FC8976B41EB92CE300284040 /* ParkedCar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8976B21EB92CE300284040 /* ParkedCar.cpp */; };
+		FC8976B71EB92D0300284040 /* ParkingMeter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8976B51EB92D0300284040 /* ParkingMeter.cpp */; };
+		FC8976BA1EB92D1300284040 /* ParkingTicket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8976B81EB92D1300284040 /* ParkingTicket.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC8976A61EB92CA500284040 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC81CF451EB92D9100C82C98 /* PoliceOfficer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PoliceOfficer.cpp; sourceTree = "<group>"; };
+		FC81CF461EB92D9100C82C98 /* PoliceOfficer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoliceOfficer.h; sourceTree = "<group>"; };
+		FC8976A81EB92CA500284040 /* Edna - Parked Car Sim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Edna - Parked Car Sim"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8976AB1EB92CA500284040 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC8976B21EB92CE300284040 /* ParkedCar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkedCar.cpp; sourceTree = "<group>"; };
+		FC8976B31EB92CE300284040 /* ParkedCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkedCar.h; sourceTree = "<group>"; };
+		FC8976B51EB92D0300284040 /* ParkingMeter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkingMeter.cpp; sourceTree = "<group>"; };
+		FC8976B61EB92D0300284040 /* ParkingMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingMeter.h; sourceTree = "<group>"; };
+		FC8976B81EB92D1300284040 /* ParkingTicket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkingTicket.cpp; sourceTree = "<group>"; };
+		FC8976B91EB92D1300284040 /* ParkingTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingTicket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8976A51EB92CA500284040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC89769F1EB92CA400284040 = {
+			isa = PBXGroup;
+			children = (
+				FC8976AA1EB92CA500284040 /* Edna - Parked Car Sim */,
+				FC8976A91EB92CA500284040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8976A91EB92CA500284040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8976A81EB92CA500284040 /* Edna - Parked Car Sim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8976AA1EB92CA500284040 /* Edna - Parked Car Sim */ = {
+			isa = PBXGroup;
+			children = (
+				FC8976AB1EB92CA500284040 /* main.cpp */,
+				FC8976B31EB92CE300284040 /* ParkedCar.h */,
+				FC8976B21EB92CE300284040 /* ParkedCar.cpp */,
+				FC8976B61EB92D0300284040 /* ParkingMeter.h */,
+				FC8976B51EB92D0300284040 /* ParkingMeter.cpp */,
+				FC8976B91EB92D1300284040 /* ParkingTicket.h */,
+				FC8976B81EB92D1300284040 /* ParkingTicket.cpp */,
+				FC81CF461EB92D9100C82C98 /* PoliceOfficer.h */,
+				FC81CF451EB92D9100C82C98 /* PoliceOfficer.cpp */,
+			);
+			path = "Edna - Parked Car Sim";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8976A71EB92CA500284040 /* Edna - Parked Car Sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8976AF1EB92CA500284040 /* Build configuration list for PBXNativeTarget "Edna - Parked Car Sim" */;
+			buildPhases = (
+				FC8976A41EB92CA500284040 /* Sources */,
+				FC8976A51EB92CA500284040 /* Frameworks */,
+				FC8976A61EB92CA500284040 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edna - Parked Car Sim";
+			productName = "Edna - Parked Car Sim";
+			productReference = FC8976A81EB92CA500284040 /* Edna - Parked Car Sim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8976A01EB92CA400284040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rafael Pagan";
+				TargetAttributes = {
+					FC8976A71EB92CA500284040 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC8976A31EB92CA400284040 /* Build configuration list for PBXProject "Edna - Parked Car Sim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC89769F1EB92CA400284040;
+			productRefGroup = FC8976A91EB92CA500284040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8976A71EB92CA500284040 /* Edna - Parked Car Sim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8976A41EB92CA500284040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8976AC1EB92CA500284040 /* main.cpp in Sources */,
+				FC81CF471EB92D9100C82C98 /* PoliceOfficer.cpp in Sources */,
+				FC8976B71EB92D0300284040 /* ParkingMeter.cpp in Sources */,
+				FC8976BA1EB92D1300284040 /* ParkingTicket.cpp in Sources */,
+				FC8976B41EB92CE300284040 /* ParkedCar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC8976AD1EB92CA500284040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC8976AE1EB92CA500284040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC8976B01EB92CA500284040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC8976B11EB92CA500284040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8976A31EB92CA400284040 /* Build configuration list for PBXProject "Edna - Parked Car Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8976AD1EB92CA500284040 /* Debug */,
+				FC8976AE1EB92CA500284040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8976AF1EB92CA500284040 /* Build configuration list for PBXNativeTarget "Edna - Parked Car Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8976B01EB92CA500284040 /* Debug */,
+				FC8976B11EB92CA500284040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8976A01EB92CA400284040 /* Project object */;
+}
