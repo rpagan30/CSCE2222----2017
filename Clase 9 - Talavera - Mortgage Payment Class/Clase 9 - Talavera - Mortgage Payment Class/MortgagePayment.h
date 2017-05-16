@@ -6,8 +6,8 @@
 //  Copyright © 2017 Rafael Pagan. All rights reserved.
 //
 
-#ifndef MortgagePayment_hpp
-#define MortgagePayment_hpp
+#ifndef MortgagePayment_h
+#define MortgagePayment_h
 
 #include <stdio.h>
 
@@ -47,14 +47,35 @@ class MortgagePayment {
 
 private:
     
-    double Payment; //monthly payment
-    double Loan;    //dollar amount of the loan Rate = the annual interest rate
-    double Years;   //number of years of the loan
+    double payment; //monthly payment
+    double loan;    //dollar amount of the loan Rate = the annual interest rate
+    double years;   //number of years of the loan
+    double rate;
+    double term;
     
 public:
+    //Constructor & Desctructor
     
+    MortgagePayment( double payment, double loan, double years, double rate, double term);
+    MortgagePayment();
+    ~MortgagePayment();
     
+    //Accessors
+    double getPayment() const;
+    double getLoan() const;
+    double getYears() const;
+    double getRate() const;
+    double getTerm() const;
     
+    //Mutators
+    void setPayment();
+    void setLoan();
+    void setYears();
+    void setRate();
+    void setTerm();
+    
+    //Display
+    void displayPayment();
 };
 
-#endif /* MortgagePayment_hpp */
+#endif /* MortgagePayment_h */

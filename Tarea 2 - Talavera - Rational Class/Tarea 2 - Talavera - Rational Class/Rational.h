@@ -28,7 +28,7 @@ public:
     void Subtract(Rational s1);
     void Multiply(Rational m1);
     void Divide(Rational d1);
-    Rational GCD(Rational g1);
+    Rational GCD();
     double CalculateFloat();
 
     //Display

@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC608B2F1EC286270019B6BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B2E1EC286270019B6BE /* main.cpp */; };
+		FC608B371EC286430019B6BE /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B351EC286430019B6BE /* Employee.cpp */; };
+		FC608B3A1EC288B40019B6BE /* ProductionWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B381EC288B40019B6BE /* ProductionWorker.cpp */; };
+		FC608B531EC295160019B6BE /* ShiftSupervisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B511EC295160019B6BE /* ShiftSupervisor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC608B291EC286270019B6BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC608B2B1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Employee and ProductionWorker Classes - Inheritence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC608B2E1EC286270019B6BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC608B351EC286430019B6BE /* Employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		FC608B361EC286430019B6BE /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		FC608B381EC288B40019B6BE /* ProductionWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProductionWorker.cpp; sourceTree = "<group>"; };
+		FC608B391EC288B40019B6BE /* ProductionWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductionWorker.h; sourceTree = "<group>"; };
+		FC608B511EC295160019B6BE /* ShiftSupervisor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShiftSupervisor.cpp; sourceTree = "<group>"; };
+		FC608B521EC295160019B6BE /* ShiftSupervisor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftSupervisor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC608B281EC286270019B6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC608B221EC286270019B6BE = {
+			isa = PBXGroup;
+			children = (
+				FC608B2D1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */,
+				FC608B2C1EC286270019B6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC608B2C1EC286270019B6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC608B2B1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC608B2D1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */ = {
+			isa = PBXGroup;
+			children = (
+				FC608B2E1EC286270019B6BE /* main.cpp */,
+				FC608B361EC286430019B6BE /* Employee.h */,
+				FC608B351EC286430019B6BE /* Employee.cpp */,
+				FC608B391EC288B40019B6BE /* ProductionWorker.h */,
+				FC608B381EC288B40019B6BE /* ProductionWorker.cpp */,
+				FC608B521EC295160019B6BE /* ShiftSupervisor.h */,
+				FC608B511EC295160019B6BE /* ShiftSupervisor.cpp */,
+			);
+			path = "Employee and ProductionWorker Classes - Inheritence";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC608B2A1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC608B321EC286270019B6BE /* Build configuration list for PBXNativeTarget "Employee and ProductionWorker Classes - Inheritence" */;
+			buildPhases = (
+				FC608B271EC286270019B6BE /* Sources */,
+				FC608B281EC286270019B6BE /* Frameworks */,
+				FC608B291EC286270019B6BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee and ProductionWorker Classes - Inheritence";
+			productName = "Employee and ProductionWorker Classes - Inheritence";
+			productReference = FC608B2B1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC608B231EC286270019B6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rafael Pagan";
+				TargetAttributes = {
+					FC608B2A1EC286270019B6BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC608B261EC286270019B6BE /* Build configuration list for PBXProject "Employee and ProductionWorker Classes - Inheritence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC608B221EC286270019B6BE;
+			productRefGroup = FC608B2C1EC286270019B6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC608B2A1EC286270019B6BE /* Employee and ProductionWorker Classes - Inheritence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC608B271EC286270019B6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC608B531EC295160019B6BE /* ShiftSupervisor.cpp in Sources */,
+				FC608B2F1EC286270019B6BE /* main.cpp in Sources */,
+				FC608B3A1EC288B40019B6BE /* ProductionWorker.cpp in Sources */,
+				FC608B371EC286430019B6BE /* Employee.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC608B301EC286270019B6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC608B311EC286270019B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC608B331EC286270019B6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC608B341EC286270019B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC608B261EC286270019B6BE /* Build configuration list for PBXProject "Employee and ProductionWorker Classes - Inheritence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC608B301EC286270019B6BE /* Debug */,
+				FC608B311EC286270019B6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC608B321EC286270019B6BE /* Build configuration list for PBXNativeTarget "Employee and ProductionWorker Classes - Inheritence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC608B331EC286270019B6BE /* Debug */,
+				FC608B341EC286270019B6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC608B231EC286270019B6BE /* Project object */;
+}

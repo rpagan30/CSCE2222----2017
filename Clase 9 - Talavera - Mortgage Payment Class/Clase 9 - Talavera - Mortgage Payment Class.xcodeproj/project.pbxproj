@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1BFFF31EBBF97300C11641 /* ContactInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC1BFFF11EBBF97300C11641 /* ContactInfo.cpp */; };
+		FC1BFFF91EBBFB4000C11641 /* Loan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC1BFFF71EBBFB4000C11641 /* Loan.cpp */; };
 		FC3A51C51E946ABA004C7CA1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A51C41E946ABA004C7CA1 /* main.cpp */; };
 		FC3A51CD1E946AE5004C7CA1 /* MortgagePayment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A51CB1E946AE5004C7CA1 /* MortgagePayment.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC1BFFF11EBBF97300C11641 /* ContactInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContactInfo.cpp; sourceTree = "<group>"; };
+		FC1BFFF21EBBF97300C11641 /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		FC1BFFF71EBBFB4000C11641 /* Loan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Loan.cpp; sourceTree = "<group>"; };
+		FC1BFFF81EBBFB4000C11641 /* Loan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
 		FC3A51C11E946ABA004C7CA1 /* Clase 9 - Talavera - Mortgage Payment Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Clase 9 - Talavera - Mortgage Payment Class"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3A51C41E946ABA004C7CA1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FC3A51CB1E946AE5004C7CA1 /* MortgagePayment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MortgagePayment.cpp; sourceTree = "<group>"; };
@@ -61,8 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				FC3A51C41E946ABA004C7CA1 /* main.cpp */,
+				FC1BFFF81EBBFB4000C11641 /* Loan.h */,
+				FC1BFFF71EBBFB4000C11641 /* Loan.cpp */,
 				FC3A51CC1E946AE5004C7CA1 /* MortgagePayment.h */,
 				FC3A51CB1E946AE5004C7CA1 /* MortgagePayment.cpp */,
+				FC1BFFF21EBBF97300C11641 /* ContactInfo.h */,
+				FC1BFFF11EBBF97300C11641 /* ContactInfo.cpp */,
 			);
 			path = "Clase 9 - Talavera - Mortgage Payment Class";
 			sourceTree = "<group>";
@@ -126,6 +136,8 @@
 			files = (
 				FC3A51CD1E946AE5004C7CA1 /* MortgagePayment.cpp in Sources */,
 				FC3A51C51E946ABA004C7CA1 /* main.cpp in Sources */,
+				FC1BFFF31EBBF97300C11641 /* ContactInfo.cpp in Sources */,
+				FC1BFFF91EBBFB4000C11641 /* Loan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +264,7 @@
 				FC3A51CA1E946ABA004C7CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

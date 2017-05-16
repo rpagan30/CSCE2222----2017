@@ -22,7 +22,7 @@ Rational Rational::operator + (const Rational &tempRational) {
     int Num1 = this->getNum() * tempRational.getDen();
     int Num2 = tempRational.getNum() * this->getDen();
     Rational R1(Num1 + Num2, cd);
-    R1.GCD(R1);
+    R1.GCD();
     return R1;
 }
 
@@ -32,7 +32,7 @@ Rational Rational::operator - (const Rational &tempRational) {
     int Num1 = this->getNum() * tempRational.getDen();
     int Num2 = tempRational.getNum() * this->getDen();
     Rational R1(Num1 - Num2, cd);
-    R1.GCD(R1);
+    R1.GCD();
     return R1;
 }
 
@@ -42,20 +42,20 @@ Rational Rational::operator * (const Rational &tempRational) {
     int Num5 = this->getNum() * tempRational.getNum();
     
     Rational R1(Num5, cdr);
-    R1.GCD(R1);
+
+    R1.GCD();
     return R1;
 }
 
 Rational Rational::operator / (const Rational &tempRational) {
     
     int cdd = this->getDen() * tempRational.getNum();
-    int Num6 = this-> getNum() * tempRational.getNum();
-    
+    int Num6 = this->getNum() * tempRational.getDen();
+
     Rational R1(Num6, cdd);
-    R1.GCD(R1);
+    R1.GCD();
     return R1;
 }
-
 
 Rational & Rational::operator=(const Rational &tempRational) {
     this->numerator = tempRational.getNum();
@@ -127,29 +127,29 @@ void Rational::setDen(int b) {
 /////////////////////////////////////////////////////////////////////////////////////////////
 //Math///////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
-Rational Rational::GCD(Rational g1) {
+Rational Rational::GCD() {
     
-    int temp = 1, a = g1.getNum() , b = g1.getDen();
+    int r = 1, a = this->getNum() , b = this->getDen();
     
     if(a < 0) {
-        a *= 1;
+        a *= -1;
     }
     else if(b < 0) {
         b *= -1;
     }
-    
-    temp = a % b;
-    
-    while(temp < 0 || temp > 0)
+    while(b > 0)
     {
+        r = a % b;
+        
         a = b;
         
-        b = temp;
-        
-        temp = (a%b);
+        b = r;
     }
-    
-    return Rational (g1.getNum()/b, g1.getDen()/b);
+
+    this->setNum(this->getNum()/a);
+    this->setDen(this->getDen()/a);
+
+    return *this;
 }
 
 void Rational::Add(Rational a1) {

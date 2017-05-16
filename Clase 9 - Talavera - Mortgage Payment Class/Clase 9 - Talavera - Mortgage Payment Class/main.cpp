@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
+#include "MortgagePayment.h"
+#include "Loan.h"
 
 using namespace std;
-
 
 /**
  
@@ -41,7 +42,13 @@ using namespace std;
  **/
 
 int main() {
+    Loan L;
     
-    
+    L.setContact();
+    L.setLoanNo();
+    L.setFinances();
+    L.displayLoan();
+
+    return 0;
 
 }

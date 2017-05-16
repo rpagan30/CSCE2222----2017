@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC608B101EC2802B0019B6BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B0F1EC2802B0019B6BE /* main.cpp */; };
+		FC608B181EC2805F0019B6BE /* Automobile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B161EC2805F0019B6BE /* Automobile.cpp */; };
+		FC608B1B1EC280790019B6BE /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B191EC280790019B6BE /* Car.cpp */; };
+		FC608B1E1EC2837C0019B6BE /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B1C1EC2837C0019B6BE /* Truck.cpp */; };
+		FC608B211EC284470019B6BE /* SUV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC608B1F1EC284470019B6BE /* SUV.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC608B0A1EC2802A0019B6BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC608B0C1EC2802A0019B6BE /* Cars Class - Inheritence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cars Class - Inheritence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC608B0F1EC2802B0019B6BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC608B161EC2805F0019B6BE /* Automobile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Automobile.cpp; sourceTree = "<group>"; };
+		FC608B171EC2805F0019B6BE /* Automobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Automobile.h; sourceTree = "<group>"; };
+		FC608B191EC280790019B6BE /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		FC608B1A1EC280790019B6BE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		FC608B1C1EC2837C0019B6BE /* Truck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
+		FC608B1D1EC2837C0019B6BE /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		FC608B1F1EC284470019B6BE /* SUV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SUV.cpp; sourceTree = "<group>"; };
+		FC608B201EC284470019B6BE /* SUV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUV.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC608B091EC2802A0019B6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC608B031EC2802A0019B6BE = {
+			isa = PBXGroup;
+			children = (
+				FC608B0E1EC2802A0019B6BE /* Cars Class - Inheritence */,
+				FC608B0D1EC2802A0019B6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC608B0D1EC2802A0019B6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC608B0C1EC2802A0019B6BE /* Cars Class - Inheritence */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC608B0E1EC2802A0019B6BE /* Cars Class - Inheritence */ = {
+			isa = PBXGroup;
+			children = (
+				FC608B0F1EC2802B0019B6BE /* main.cpp */,
+				FC608B171EC2805F0019B6BE /* Automobile.h */,
+				FC608B161EC2805F0019B6BE /* Automobile.cpp */,
+				FC608B1A1EC280790019B6BE /* Car.h */,
+				FC608B191EC280790019B6BE /* Car.cpp */,
+				FC608B1D1EC2837C0019B6BE /* Truck.h */,
+				FC608B1C1EC2837C0019B6BE /* Truck.cpp */,
+				FC608B201EC284470019B6BE /* SUV.h */,
+				FC608B1F1EC284470019B6BE /* SUV.cpp */,
+			);
+			path = "Cars Class - Inheritence";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC608B0B1EC2802A0019B6BE /* Cars Class - Inheritence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC608B131EC2802B0019B6BE /* Build configuration list for PBXNativeTarget "Cars Class - Inheritence" */;
+			buildPhases = (
+				FC608B081EC2802A0019B6BE /* Sources */,
+				FC608B091EC2802A0019B6BE /* Frameworks */,
+				FC608B0A1EC2802A0019B6BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cars Class - Inheritence";
+			productName = "Cars Class - Inheritence";
+			productReference = FC608B0C1EC2802A0019B6BE /* Cars Class - Inheritence */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC608B041EC2802A0019B6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rafael Pagan";
+				TargetAttributes = {
+					FC608B0B1EC2802A0019B6BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC608B071EC2802A0019B6BE /* Build configuration list for PBXProject "Cars Class - Inheritence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC608B031EC2802A0019B6BE;
+			productRefGroup = FC608B0D1EC2802A0019B6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC608B0B1EC2802A0019B6BE /* Cars Class - Inheritence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC608B081EC2802A0019B6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC608B1B1EC280790019B6BE /* Car.cpp in Sources */,
+				FC608B181EC2805F0019B6BE /* Automobile.cpp in Sources */,
+				FC608B211EC284470019B6BE /* SUV.cpp in Sources */,
+				FC608B101EC2802B0019B6BE /* main.cpp in Sources */,
+				FC608B1E1EC2837C0019B6BE /* Truck.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC608B111EC2802B0019B6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC608B121EC2802B0019B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC608B141EC2802B0019B6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC608B151EC2802B0019B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC608B071EC2802A0019B6BE /* Build configuration list for PBXProject "Cars Class - Inheritence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC608B111EC2802B0019B6BE /* Debug */,
+				FC608B121EC2802B0019B6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC608B131EC2802B0019B6BE /* Build configuration list for PBXNativeTarget "Cars Class - Inheritence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC608B141EC2802B0019B6BE /* Debug */,
+				FC608B151EC2802B0019B6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC608B041EC2802A0019B6BE /* Project object */;
+}
