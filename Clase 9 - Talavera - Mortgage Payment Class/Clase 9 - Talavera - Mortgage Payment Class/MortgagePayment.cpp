@@ -46,7 +46,6 @@ void MortgagePayment::setPayment() {
     payment = (loan * (rate/12) * term) / (term - 1);
 }
 void MortgagePayment::setLoan() {
-    
     cout << "Enter the loan amount in dollars:" << endl;
     cin >> this->loan;
 }
@@ -62,14 +61,50 @@ void MortgagePayment::setTerm() {
     term = pow((1 + (rate/12)), (12 * years));
 }
 
-void MortgagePayment::displayPayment() {
+void MortgagePayment::displayPayment() const{
     
-    this->setTerm();
-    this->setPayment();
+    //this->setTerm();
+    //this->setPayment();
     cout << "--Loan Summary--" << endl;
     cout << "Loan amount: $" << this->loan << endl;
     cout << "Years of the loan: " << this->years << endl;
     cout << "Annual interest rate: " << this->rate << endl;
     cout << "Term: " << this->term << endl;
     cout << "Total Monthly Payment: $" << this->payment << endl;
+}
+
+//Overloaded Operators
+
+//Assign Operator
+MortgagePayment & MortgagePayment::operator=(const MortgagePayment &temp) {
+    this->loan = temp.getLoan();
+    this->years = temp.getYears();
+    this->rate = temp.getRate();
+    this->term = temp.getRate();
+    return *this;
+}
+
+//Stream Operators
+ostream &operator << (ostream &output, const MortgagePayment &temp) {
+    
+    output << "--Loan Summary--" << endl;
+    output << "Loan amount: $" << temp.loan << endl;
+    output << "Years of the loan: " << temp.years << endl;
+    output << "Annual interest rate: " << temp.rate << endl;
+    output << "Term: " << temp.term << endl;
+    output << "Total Monthly Payment: $" << temp.payment << endl;
+    return output;
+}
+
+istream &operator >> (istream &input, MortgagePayment &temp) {
+    
+    cout << "Enter the loan amount in dollars:" << endl;
+    input >> temp.loan;
+    cout << "Enter of years of the loan:" << endl;
+    input >> temp.years;
+    cout << "Enter annual interest rate of the loan:" << endl;
+    input >> temp.rate;
+    temp.setTerm();
+    temp.setPayment();
+    return input;
 }

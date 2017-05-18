@@ -11,12 +11,10 @@
 #include "MortgagePayment.h"
 #include <iostream>
 
-
 //Constructors & Destructor
 
 Loan::Loan() : contact() , finances() {
     loan_no = "";
-    
 }
 
 Loan::Loan(string loan_no, MortgagePayment finances, ContactInfo contact): loan_no(loan_no), finances(finances), contact(contact) {}
@@ -52,7 +50,31 @@ void Loan::setContact() {
     cout << "Phone: " << endl;
     cin >> this->contact.getPhone();
 }
-void Loan::displayLoan() {
+void Loan::displayLoan() const {
     this->finances.displayPayment();
 }
+
+Loan & Loan::operator=(const Loan &temp) {
+    this->loan_no = temp.getLoanNo();
+    this->finances = temp.getFinances();
+    this-> contact = temp.getContact();
+    return *this;
+}
+
+ostream &operator << (ostream &output, const Loan &temp) {
+    output << "Loan Number: " << temp.getLoanNo() << endl;
+    temp.displayLoan();
+    return output;
+}
+
+istream &operator >> (istream &input, Loan &temp) {
+    cout << "Please enter the loan number." << endl;
+    input >> temp.loan_no;
+    cout << "Please enter the contact info." << endl;
+    input >> temp.contact;
+    cout << "Enter the loan information." << endl;
+    input >> temp.finances;
+    return input;
+}
+
 

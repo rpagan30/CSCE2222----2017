@@ -10,7 +10,9 @@
 #define MortgagePayment_h
 
 #include <stdio.h>
+#include <iostream>
 
+using namespace std;
 
 /**
  
@@ -75,7 +77,12 @@ public:
     void setTerm();
     
     //Display
-    void displayPayment();
+    void displayPayment() const;
+    
+    //Overloaded Operators
+    MortgagePayment &operator = (const MortgagePayment &);
+    friend ostream &operator<<(ostream &, const MortgagePayment &);
+    friend istream &operator>>(istream &, MortgagePayment &);
 };
 
 #endif /* MortgagePayment_h */

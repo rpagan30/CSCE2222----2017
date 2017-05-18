@@ -17,8 +17,6 @@ int main() {
     
     // Display the object's data.
     cout << "Name: " << entry.getName() << endl;
-    cout << "Phone Number: " << entry.getPhone() << endl;
-    return 0;
-    
+    cout << "Phone Number: " << entry.getPhone() << endl;    
     return 0;
 }

@@ -40,8 +40,12 @@ public:
     void setContact();
     
     //Display info
-    void displayLoan();
+    void displayLoan() const;
     
+    //Overloaded operators
+    Loan &operator = (const Loan &);
+    friend ostream &operator<<(ostream &, const Loan &);
+    friend istream &operator>>(istream &, Loan &);
 };
 
 #endif /* Loan_h */

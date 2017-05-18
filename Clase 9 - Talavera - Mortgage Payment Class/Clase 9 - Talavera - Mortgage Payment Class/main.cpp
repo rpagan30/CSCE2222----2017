@@ -7,9 +7,7 @@
 //
 
 #include <iostream>
-#include "MortgagePayment.h"
-#include "Loan.h"
-
+#include "LoanList.h"
 using namespace std;
 
 /**
@@ -42,13 +40,48 @@ using namespace std;
  **/
 
 int main() {
-    Loan L;
+    LoanList LL;
+    Loan L, M, N;
+    //ContactInfo C("Rafael", "787-600-3684"), D;
+    ContactInfo C("1", "2"), D;
+  
+    cout << "Contact Loan List" << endl;
     
-    L.setContact();
-    L.setLoanNo();
-    L.setFinances();
-    L.displayLoan();
+    cin >> L;
+    cout << L;
+    LL += L;
+    cin >> M;
+    cout << M;
+    LL += M;
+    cin >> N;
+    LL += N;
+    
+    cout << LL << endl;
+    
+    LL -= N;
+    
+    cout << "New Loan List: " << endl;
+    
+    cout << LL << endl;
+    
+    
+    /*
+    cout << "Contact Info Debug"<< endl;
+    
+    cout << "Contact C: " << C << endl;
+    
+    cout << "C.getName(): " << C.getName()<< endl;
+    
+    D = C;
+    
+    cout << "Contact D: " << D << endl;
+
+    
+    cout << "End." << endl;
+
+    
+    cout << "C.getName(): " << C.getName()<< endl;
+     */
 
     return 0;
-
 }

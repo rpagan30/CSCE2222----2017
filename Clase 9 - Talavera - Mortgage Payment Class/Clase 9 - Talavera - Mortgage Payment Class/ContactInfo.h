@@ -11,6 +11,8 @@
 
 #include <stdio.h>
 #include <string> // Needed for strlen and strcpy
+#include <iostream>
+using namespace std;
 
 // ContactInfo class declaration.
 class ContactInfo {
@@ -36,6 +38,10 @@ public:
     // Copy Constructor
     
     ContactInfo(const ContactInfo &aContactInfo);
+    
+    //ContactInfo &operator = (const ContactInfo &);
+    friend ostream &operator<<(ostream &, const ContactInfo &);
+    friend istream &operator>>(istream &, ContactInfo &);
 };
 
 #endif /* Info_h */

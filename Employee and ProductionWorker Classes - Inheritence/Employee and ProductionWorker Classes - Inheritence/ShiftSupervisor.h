@@ -24,6 +24,14 @@ private:
     double bonus;
     
 public:
+    
+    //Default Constructor
+    ShiftSupervisor ();
+    
+    //Constructor
+    ShiftSupervisor(string SSV_name, string SSV_employee_number, string SSV_hire_date, int SSV_shift, double SSV_hourly_pay_rate, double SSV_annual_salary, double SSV_bonus);
+    
+    /*
     //Default Constructor
     ShiftSupervisor () : ProductionWorker() {
         annual_salary = 70000;
@@ -36,5 +44,6 @@ public:
         annual_salary = SSV_annual_salary;
         bonus = SSV_bonus;
     }
+     */
 };
 #endif /* ShiftSupervisor_h */

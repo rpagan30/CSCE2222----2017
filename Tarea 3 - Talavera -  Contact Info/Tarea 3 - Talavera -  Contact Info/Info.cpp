@@ -17,9 +17,6 @@ ContactInfo::ContactInfo(char *n, char *p){ // Allocate just enough memory for t
     strcpy(phone, p);
 }
 
-//Rect::Rect(float base, float altura, float area): base(base), altura(altura), area(area)
-//{}
-
 ContactInfo::~ContactInfo() {
     delete [] name;
     delete [] phone;
@@ -46,7 +43,6 @@ void ContactInfo::Display() const {
     std::cout << "\n--Contact Info--";
     std::cout << "Name: " << getName() << "\n";
     std::cout << "Phone: " << getPhone() << "\n";
-    
 }
 
 ContactInfo::ContactInfo( const ContactInfo &aContactInfo) {
