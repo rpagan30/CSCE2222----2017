@@ -22,7 +22,6 @@ ContactInfo::~ContactInfo() {
     delete [] phone;
 }
 
-
 char* ContactInfo::getName() const {
     return name;
 }
@@ -48,5 +47,5 @@ void ContactInfo::Display() const {
 ContactInfo::ContactInfo( const ContactInfo &aContactInfo) {
     setName( aContactInfo.getName() );
     setPhone( aContactInfo.getPhone() );
-    std::cout << "Copied rectangle using the copy constructor.\n";
+    std::cout << "Copied contact using the copy constructor.\n";
 }
