@@ -11,14 +11,13 @@
 //Constructor & Destructor
 //Default Constructor
 ProductionWorker::ProductionWorker () : Employee () {
-    shift = 0;
-    hourly_pay_rate = 0;
+    this->shift = 0;
+    this->hourly_pay_rate = 0;
 }
 
 //Constructor
 ProductionWorker::ProductionWorker(string PW_name, string PW_employee_number, string PW_hire_date, int PW_shift, double PW_hourly_pay_rate)
-:
-Employee( PW_name, PW_employee_number, PW_hire_date) {
+:Employee( PW_name, PW_employee_number, PW_hire_date) {
     shift = PW_shift;
     hourly_pay_rate = PW_hourly_pay_rate;
 }

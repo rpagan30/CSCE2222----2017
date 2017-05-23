@@ -7,6 +7,17 @@
 //
 
 #include "Employee.h"
+Employee::Employee() {
+    name = "";
+    number = "";
+    hire_date = "";
+}
+
+Employee::Employee(string emp_name, string emp_number, string emp_hire_date) {
+    this->name = emp_name;
+    this->number = emp_number;
+    this->hire_date = emp_hire_date;
+}
 
 
 Employee::~Employee() {}
@@ -27,6 +38,6 @@ void Employee::setName(string N) {
 void Employee::setNum(string EN) {
     this->number = EN;
 }
-void Employee::getHireDate(string HD) {
+void Employee::setHireDate(string HD) {
     this->hire_date = HD;
 }

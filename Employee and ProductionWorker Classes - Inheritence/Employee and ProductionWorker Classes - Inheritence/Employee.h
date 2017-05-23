@@ -20,26 +20,20 @@ private:
     string hire_date;
 public:
     //Default Constructor
-    Employee() {
-        name = "";
-        number = "";
-        hire_date = "";
-    }
+    Employee();
+    
     //Constructor
-    Employee(string emp_name, string emp_number, string emp_hire_date) {
-        name = emp_name;
-        number = emp_number;
-        hire_date = emp_hire_date;
-    }
+    Employee(string emp_name, string emp_number, string emp_hire_date);
     ~Employee();
-
+    
+    //Accessors & Mutators
     string getName() const;
     string getNum() const;
     string getHireDate() const;
     
     void setName(string N);
     void setNum(string EN);
-    void getHireDate(string HD);
+    void setHireDate(string HD);
 };
 
 #endif /* Employee_h */
