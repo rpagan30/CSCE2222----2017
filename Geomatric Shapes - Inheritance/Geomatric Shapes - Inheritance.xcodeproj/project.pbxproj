@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7967D61ED3EAC300FE4AAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7967D51ED3EAC300FE4AAA /* main.cpp */; };
+		FC7967F11ED3EB1600FE4AAA /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7967EF1ED3EB1600FE4AAA /* Rect.cpp */; };
+		FC7967F71ED3EB8100FE4AAA /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7967F51ED3EB8100FE4AAA /* Square.cpp */; };
+		FC7967FA1ED3EB8F00FE4AAA /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7967F81ED3EB8F00FE4AAA /* Triangle.cpp */; };
+		FC7967FD1ED3EBAF00FE4AAA /* Parallelogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7967FB1ED3EBAF00FE4AAA /* Parallelogram.cpp */; };
+		FC7968001ED3EBC300FE4AAA /* Trapezoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7967FE1ED3EBC300FE4AAA /* Trapezoid.cpp */; };
+		FC7968031ED3EBDD00FE4AAA /* RightCircularCone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7968011ED3EBDD00FE4AAA /* RightCircularCone.cpp */; };
+		FC7968061ED3EBF100FE4AAA /* RightCircularCylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7968041ED3EBF100FE4AAA /* RightCircularCylinder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC7967D01ED3EAC300FE4AAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC7967D21ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Geomatric Shapes - Inheritance"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7967D51ED3EAC300FE4AAA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC7967EF1ED3EB1600FE4AAA /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rect.cpp; sourceTree = "<group>"; };
+		FC7967F01ED3EB1600FE4AAA /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
+		FC7967F51ED3EB8100FE4AAA /* Square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
+		FC7967F61ED3EB8100FE4AAA /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		FC7967F81ED3EB8F00FE4AAA /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		FC7967F91ED3EB8F00FE4AAA /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		FC7967FB1ED3EBAF00FE4AAA /* Parallelogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parallelogram.cpp; sourceTree = "<group>"; };
+		FC7967FC1ED3EBAF00FE4AAA /* Parallelogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parallelogram.h; sourceTree = "<group>"; };
+		FC7967FE1ED3EBC300FE4AAA /* Trapezoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trapezoid.cpp; sourceTree = "<group>"; };
+		FC7967FF1ED3EBC300FE4AAA /* Trapezoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezoid.h; sourceTree = "<group>"; };
+		FC7968011ED3EBDD00FE4AAA /* RightCircularCone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RightCircularCone.cpp; sourceTree = "<group>"; };
+		FC7968021ED3EBDD00FE4AAA /* RightCircularCone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCircularCone.h; sourceTree = "<group>"; };
+		FC7968041ED3EBF100FE4AAA /* RightCircularCylinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RightCircularCylinder.cpp; sourceTree = "<group>"; };
+		FC7968051ED3EBF100FE4AAA /* RightCircularCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCircularCylinder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7967CF1ED3EAC300FE4AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7967C91ED3EAC300FE4AAA = {
+			isa = PBXGroup;
+			children = (
+				FC7967D41ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */,
+				FC7967D31ED3EAC300FE4AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7967D31ED3EAC300FE4AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7967D21ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7967D41ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				FC7967D51ED3EAC300FE4AAA /* main.cpp */,
+				FC7967F01ED3EB1600FE4AAA /* Rect.h */,
+				FC7967EF1ED3EB1600FE4AAA /* Rect.cpp */,
+				FC7967F61ED3EB8100FE4AAA /* Square.h */,
+				FC7967F51ED3EB8100FE4AAA /* Square.cpp */,
+				FC7967F91ED3EB8F00FE4AAA /* Triangle.h */,
+				FC7967F81ED3EB8F00FE4AAA /* Triangle.cpp */,
+				FC7967FC1ED3EBAF00FE4AAA /* Parallelogram.h */,
+				FC7967FB1ED3EBAF00FE4AAA /* Parallelogram.cpp */,
+				FC7967FF1ED3EBC300FE4AAA /* Trapezoid.h */,
+				FC7967FE1ED3EBC300FE4AAA /* Trapezoid.cpp */,
+				FC7968021ED3EBDD00FE4AAA /* RightCircularCone.h */,
+				FC7968011ED3EBDD00FE4AAA /* RightCircularCone.cpp */,
+				FC7968051ED3EBF100FE4AAA /* RightCircularCylinder.h */,
+				FC7968041ED3EBF100FE4AAA /* RightCircularCylinder.cpp */,
+			);
+			path = "Geomatric Shapes - Inheritance";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7967D11ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7967D91ED3EAC300FE4AAA /* Build configuration list for PBXNativeTarget "Geomatric Shapes - Inheritance" */;
+			buildPhases = (
+				FC7967CE1ED3EAC300FE4AAA /* Sources */,
+				FC7967CF1ED3EAC300FE4AAA /* Frameworks */,
+				FC7967D01ED3EAC300FE4AAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geomatric Shapes - Inheritance";
+			productName = "Geomatric Shapes - Inheritance";
+			productReference = FC7967D21ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7967CA1ED3EAC300FE4AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rafael Pagan";
+				TargetAttributes = {
+					FC7967D11ED3EAC300FE4AAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC7967CD1ED3EAC300FE4AAA /* Build configuration list for PBXProject "Geomatric Shapes - Inheritance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC7967C91ED3EAC300FE4AAA;
+			productRefGroup = FC7967D31ED3EAC300FE4AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7967D11ED3EAC300FE4AAA /* Geomatric Shapes - Inheritance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7967CE1ED3EAC300FE4AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7967F71ED3EB8100FE4AAA /* Square.cpp in Sources */,
+				FC7968061ED3EBF100FE4AAA /* RightCircularCylinder.cpp in Sources */,
+				FC7967FD1ED3EBAF00FE4AAA /* Parallelogram.cpp in Sources */,
+				FC7968001ED3EBC300FE4AAA /* Trapezoid.cpp in Sources */,
+				FC7967D61ED3EAC300FE4AAA /* main.cpp in Sources */,
+				FC7967FA1ED3EB8F00FE4AAA /* Triangle.cpp in Sources */,
+				FC7968031ED3EBDD00FE4AAA /* RightCircularCone.cpp in Sources */,
+				FC7967F11ED3EB1600FE4AAA /* Rect.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC7967D71ED3EAC300FE4AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC7967D81ED3EAC300FE4AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC7967DA1ED3EAC300FE4AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC7967DB1ED3EAC300FE4AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7967CD1ED3EAC300FE4AAA /* Build configuration list for PBXProject "Geomatric Shapes - Inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7967D71ED3EAC300FE4AAA /* Debug */,
+				FC7967D81ED3EAC300FE4AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7967D91ED3EAC300FE4AAA /* Build configuration list for PBXNativeTarget "Geomatric Shapes - Inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7967DA1ED3EAC300FE4AAA /* Debug */,
+				FC7967DB1ED3EAC300FE4AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7967CA1ED3EAC300FE4AAA /* Project object */;
+}

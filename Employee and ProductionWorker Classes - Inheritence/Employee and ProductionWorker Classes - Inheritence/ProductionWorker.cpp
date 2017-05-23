@@ -22,7 +22,6 @@ ProductionWorker::ProductionWorker(string PW_name, string PW_employee_number, st
     hourly_pay_rate = PW_hourly_pay_rate;
 }
 
-
 ProductionWorker::~ProductionWorker() {}
 
 int ProductionWorker::getShift() const {
